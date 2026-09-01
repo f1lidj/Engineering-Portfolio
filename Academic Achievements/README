@@ -1,0 +1,123 @@
+# Academic Achievements
+
+Selected academic publications, conference contributions and awards obtained during my studies in Aeronautical Engineering at **Politecnico di Milano**.
+
+This folder contains supporting material for selected academic achievements related primarily to **experimental aerodynamics, aircraft design and aerospace engineering research**.
+
+---
+
+## Scientific Publication
+
+### Wind Tunnel Investigation of Spoileron Effectiveness on a Low-Aspect-Ratio Swept Wing with Reflex Airfoils
+
+**Authors:** Riccardo Andrew Oggioni, Carlo Emanuele Dionigi Riboldi, Filippo Coacci  
+**Institution:** Politecnico di Milano  
+**Conference:** 1st International Online Conference on Aerospace — IOCAE 2026  
+**Publisher:** MDPI, Engineering Proceedings  
+**Published:** August 2026
+
+The work investigated the effectiveness of spoilerons as primary roll-control devices on a highly swept, low-aspect-ratio wing using experimental reflex airfoils.
+
+The study combined preliminary analytical prediction with an extensive **wind-tunnel experimental campaign** to evaluate:
+
+- spoileron spanwise position;
+- chordwise position;
+- spoileron geometry;
+- deflection angle;
+- rolling-moment effectiveness;
+- adverse yaw behaviour;
+- comparison with DATCOM predictions.
+
+A set of normalised performance indices was introduced to separate the effects of spoiler area and moment arm from the intrinsic aerodynamic effectiveness of different configurations.
+
+The experimental results were subsequently used to support control-surface sizing and configuration decisions for the aircraft under development.
+
+### Publication
+
+[`MDPI Conference Paper`](Wind_Tunnel_Investigation_Spoileron_Effectiveness.pdf)
+
+---
+
+## Best Poster Award — IOCAE 2026
+
+The associated conference contribution received the **Best Poster Award** at the 1st International Online Conference on Aerospace.
+
+The award recognised the quality of the research presentation and the underlying experimental work on spoileron effectiveness for unconventional swept-wing configurations.
+
+The project formed part of a wider research activity involving:
+
+**requirements → aerodynamic modelling → experimental testing → model validation → design decision**
+
+---
+
+## Experimental Contribution
+
+My contribution to the research included work associated with:
+
+- wind-tunnel experimental testing;
+- test planning and execution;
+- aerodynamic data processing;
+- comparison between experimental and analytical predictions;
+- control-surface effectiveness assessment;
+- interpretation of roll and yaw behaviour;
+- application of experimental findings to aircraft design.
+
+The broader experimental activity was connected to my MSc thesis work on the development and validation of control solutions for an unconventional tail-sitter aircraft configuration.
+
+---
+
+## Key Technical Findings
+
+The study highlighted several relevant aerodynamic behaviours:
+
+- DATCOM predictions showed reasonable agreement with experimental **rolling-moment effectiveness**.
+- Larger discrepancies were observed in the prediction of **yawing-moment coupling**.
+- Spoiler effectiveness showed a clear dependence on spanwise and chordwise location.
+- Increasing spoiler span was found to provide a more efficient improvement in control authority than an equivalent increase in chord for the configurations investigated.
+- Experimental testing identified effective spoiler locations extending beyond the conventional DATCOM reference domain.
+
+These results directly supported subsequent control-surface architecture and sizing decisions.
+
+---
+
+## Research Areas
+
+`Experimental Aerodynamics`  
+`Wind-Tunnel Testing`  
+`Aircraft Stability & Control`  
+`Spoilerons`  
+`Control-Surface Design`  
+`Aerodynamic Validation`  
+`DATCOM`  
+`Data Reduction`  
+`Aircraft Design`  
+`Research & Publication`
+
+---
+
+## Repository Contents
+
+This folder contains selected material associated with the academic work, such as:
+
+- published conference paper;
+- conference poster;
+- Best Poster Award documentation;
+- selected public research material.
+
+Only material suitable for public distribution is included.
+
+---
+
+## Citation
+
+**Oggioni, R.A.; Riboldi, C.E.D.; Coacci, F.**  
+*Wind Tunnel Investigation of Spoileron Effectiveness on a Low-Aspect-Ratio Swept Wing with Reflex Airfoils.*  
+Engineering Proceedings, 2026.
+
+---
+
+## Notes
+
+The scientific work was carried out at **Politecnico di Milano** as part of research and experimental activities connected with aircraft design and aerodynamic validation.
+
+The publication is a collaborative academic work; authorship and individual contributions are represented according to the published paper.
