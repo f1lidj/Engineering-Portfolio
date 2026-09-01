@@ -1,0 +1,256 @@
+# Electric Propulsion — Projects NYX and AETHRA
+
+**Electric propulsion system design, hardware testing and aircraft integration for fixed-wing UAV platforms**
+
+**Organisation:** Fly Mi – Politecnico di Milano  
+**Role:** Head of Electric Propulsion Department  
+**Period:** September 2022 – September 2024  
+**Location:** Milan, Italy
+
+---
+
+## Project Overview
+
+NYX and AETHRA were fixed-wing UAV projects developed within Fly Mi, the student aeronautical association of Politecnico di Milano.
+
+Across the two programmes, I led the **Electric Propulsion Department**, coordinating a **12-member team** responsible for the sizing, component selection, testing and aircraft integration of the electric propulsion system.
+
+The work covered the complete development loop from preliminary analytical sizing and component screening to bench testing, wind-tunnel validation and integration of flight-ready hardware.
+
+AETHRA also included development activities for the **Air Cargo Challenge 2024**.
+
+---
+
+## My Role
+
+As Head of Electric Propulsion, I was responsible for coordinating the propulsion-system development and ensuring that component-level choices were consistent with aircraft-level mission requirements.
+
+Main activities included:
+
+- Electric propulsion system sizing for fixed-wing UAVs.
+- Battery selection, testing and characterisation.
+- Motor selection and motor–propeller matching.
+- Propeller performance assessment.
+- Static propulsion testing.
+- Wind-tunnel characterisation.
+- ESC and high-power electrical integration.
+- Wiring, connectors and power-distribution considerations.
+- Cooling and installation constraints.
+- Hardware troubleshooting.
+- Aircraft-level propulsion integration.
+- Coordination of a 12-member engineering team.
+
+---
+
+## Propulsion-System Sizing
+
+Component selection was performed as an aircraft-level engineering problem rather than by considering individual components in isolation.
+
+The design process included screening and comparison of:
+
+- **20+ electric motors**
+- **50+ battery configurations**
+- **hundreds of motor–propeller combinations**
+
+Analytical and manufacturer data were combined using tools including **BEMT methods, JavaProp and APC propeller data** to identify candidate configurations suitable for the required operating conditions.
+
+Important design parameters included:
+
+- required thrust and power;
+- motor operating point;
+- propeller efficiency;
+- battery voltage and capacity;
+- discharge capability;
+- system mass;
+- expected mission endurance;
+- thermal and electrical operating limits.
+
+---
+
+## Battery Testing and High-Power Electronics
+
+Battery behaviour was evaluated with particular attention to its influence on the complete propulsion system.
+
+Activities included assessment of:
+
+- usable battery capacity;
+- voltage behaviour under load;
+- discharge performance;
+- energy and power capability;
+- operational limits;
+- battery mass;
+- compatibility with motor and ESC requirements.
+
+The practical integration work also involved:
+
+- ESCs;
+- high-current wiring;
+- connectors;
+- battery connections;
+- electrical installation;
+- cooling considerations;
+- troubleshooting of propulsion hardware.
+
+This provided direct experience with the practical differences between nominal component specifications and the behaviour of an installed high-power electric propulsion system.
+
+---
+
+## Motor–Propeller Matching
+
+Candidate motors and propellers were evaluated across the expected aircraft operating envelope.
+
+The workflow combined:
+
+1. mission and aircraft requirements;
+2. preliminary propulsion sizing;
+3. motor and battery screening;
+4. propeller-performance analysis;
+5. component-level testing;
+6. experimental validation;
+7. aircraft integration.
+
+The objective was not simply to maximise static thrust, but to select a propulsion architecture providing an appropriate compromise between **performance, efficiency, mass, endurance and operational reliability**.
+
+---
+
+## Experimental Testing
+
+### Bench Testing
+
+Static testing was used to evaluate propulsion-system behaviour and verify predicted operating points.
+
+Typical quantities considered included:
+
+- thrust;
+- electrical power;
+- voltage and current;
+- propeller operating condition;
+- system efficiency;
+- hardware behaviour under load.
+
+Testing was also used to identify integration and hardware issues before installation on the aircraft.
+
+### Wind-Tunnel Testing
+
+The propulsion system was subsequently characterised in the wind tunnel to investigate behaviour under representative incoming-flow conditions.
+
+This allowed the team to assess the propulsion system beyond purely static conditions and to better understand the relationship between:
+
+- propeller operating point;
+- freestream velocity;
+- propulsion performance;
+- aircraft installation;
+- aerodynamic interaction.
+
+Wind-tunnel testing formed part of the validation loop between analytical prediction, component testing and aircraft-level implementation.
+
+---
+
+## Aircraft Integration
+
+The selected propulsion architectures were integrated into flight-capable UAV platforms.
+
+Integration activities included consideration of:
+
+- motor installation;
+- propeller clearance;
+- ESC positioning;
+- battery installation;
+- wiring and connectors;
+- cooling;
+- structural interfaces;
+- maintainability;
+- overall system mass.
+
+The work provided practical experience in the fact that **bench performance does not automatically translate into installed performance**: mechanical installation, thermal management, electrical losses and aircraft integration can significantly affect the final system.
+
+---
+
+## Engineering Results
+
+Across the NYX and AETHRA development programmes:
+
+- **12 engineers** coordinated within the Electric Propulsion Department.
+- **20+ motors** screened.
+- **50+ battery options** evaluated.
+- **Hundreds of propeller combinations** assessed.
+- Propulsion hardware validated through analytical, bench, wind-tunnel and flight-related activities.
+- System optimisation contributed to a **400 g reduction in propulsion-system mass**.
+- Component and system optimisation contributed to an approximately **30% increase in flight endurance**.
+
+---
+
+## Project Gallery
+
+### NYX
+
+![NYX UAV](aircraft/NYX/nyx_01.jpg)
+
+*NYX fixed-wing UAV.*
+
+![NYX Integration](aircraft/NYX/nyx_integration.jpg)
+
+*Propulsion and aircraft integration activities.*
+
+### AETHRA
+
+![AETHRA UAV](aircraft/AETHRA/aethra_01.jpg)
+
+*AETHRA fixed-wing UAV.*
+
+![AETHRA Integration](aircraft/AETHRA/aethra_integration.jpg)
+
+*Aircraft and propulsion-system integration.*
+
+### Wind-Tunnel Testing
+
+![Wind Tunnel Setup](testing/wind_tunnel/wind_tunnel_setup_01.jpg)
+
+*Experimental propulsion-system characterisation in the wind tunnel.*
+
+![Installed Propulsion System](testing/wind_tunnel/installed_propulsion_system.jpg)
+
+*Propulsion-system test installation.*
+
+---
+
+## Technical Documentation
+
+### NYX Technical Development Report
+
+[`NYX Technical Development Report`](documentation/NYX_Technical_Development_Report.pdf)
+
+The report documents the wider development of the NYX UAV, including aircraft design, electronics, control systems and propulsion-system activities.
+
+It is included here to provide **aircraft-level context for the propulsion work** and to show how the electric propulsion system interacted with the wider UAV architecture.
+
+> **Note:** The report represents multidisciplinary team work. My primary responsibility within the programme was the design, testing and integration of the electric propulsion system as Head of the Electric Propulsion Department.
+
+---
+
+## Engineering Areas Covered
+
+`Electric Propulsion`  
+`Fixed-Wing UAVs`  
+`Battery Characterisation`  
+`High-Power Electronics`  
+`Motor–Propeller Matching`  
+`BEMT`  
+`JavaProp`  
+`Static Testing`  
+`Wind-Tunnel Testing`  
+`Experimental Validation`  
+`ESC Integration`  
+`Wiring & Connectors`  
+`Thermal Management`  
+`Hardware Troubleshooting`  
+`Aircraft Integration`  
+`Engineering Leadership`
+
+---
+
+## Notes
+
+NYX and AETHRA were developed within **Fly Mi – Politecnico di Milano**.
+
+The documentation and media included in this repository are provided as selected examples of my engineering experience. Multidisciplinary project documents are identified as team outputs, while my individual responsibilities are stated explicitly.
