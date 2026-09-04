@@ -1,116 +1,22 @@
-# KIRA — ISR / C-UAS Unmanned Aerial System
+# KIRA — Long-Endurance ISR / Counter-UAS Aircraft
 
-**Preliminary design and system architecture of a long-endurance fixed-wing ISR / Counter-UAS platform**
+KIRA was a one-year **conceptual and preliminary aircraft-design project** at Politecnico di Milano for a long-endurance fixed-wing ISR platform with integrated Counter-UAS capability.
 
-**Institution:** Politecnico di Milano
-**Role:** Team Leader, 5-member group
-**Academic Year:** 2024–2025
-**Project Type:** Aircraft Design / Preliminary UAS Design
-
----
-
-## Project Overview
-
-KIRA is a fixed-wing Unmanned Aerial System developed as a preliminary-design study for persistent **Intelligence, Surveillance and Reconnaissance (ISR)** missions with integrated **Counter-UAS capability**.
-
-The project focused on the design of a complete deployable UAS architecture, combining:
-
-* long-endurance persistent surveillance;
-* detection, classification and tracking of aerial threats;
-* modular radar, EO/IR and EW payload integration;
-* mobile Ground Control Station operations;
-* deployment from semi-prepared sites;
-* single- and dual-UAV operating concepts.
-
-The baseline configuration was designed for approximately **25 hours of endurance with a 125 kg mission payload**.
-
----
+The baseline concept targeted approximately **25 hours of endurance with a 125 kg mission payload**, integrating radar, EO/IR, EW, communications and a deployable ground-control architecture.
 
 ## My Role
 
-I acted as **Team Leader of a five-member engineering team**, coordinating the one-year conceptual and preliminary design activity.
+**Team Leader — 5-member engineering team**
 
-My main responsibilities included:
+I was responsible for project and technical coordination and contributed directly to:
 
-* project and technical coordination;
-* operational scenario and CONOPS definition;
-* aircraft configuration trade-offs and preliminary sizing;
-* system and mission architecture definition;
-* payload integration;
-* mass, power and CG management;
-* performance and endurance assessment;
-* preliminary structural sizing;
-* mobile GCS concept definition;
-* multidisciplinary aircraft-level integration.
+- mission requirements, CONOPS and system architecture;
+- aircraft configuration trade-offs and preliminary sizing;
+- propulsion, performance, mass, power and CG integration;
+- radar, EO/IR and EW payload integration;
+- preliminary structural sizing and load assessment;
+- mobile GCS concept and aircraft-level multidisciplinary integration.
 
----
+KIRA remained at preliminary-design maturity; no full-scale prototype was built.
 
-## Aircraft and Mission-System Integration
-
-The preliminary design covered:
-
-* aerodynamic and endurance-driven wing sizing;
-* propulsion sizing;
-* aircraft mass breakdown;
-* radar, EO/IR and EW integration;
-* avionics and communication architecture;
-* electrical-power budgeting;
-* centre-of-gravity management;
-* flight-control and actuator requirements;
-* operational performance assessment.
-
-A dedicated fuel-management strategy was considered to maintain the **CG within the prescribed stability envelope throughout the mission**.
-
-The C-UAS architecture focused on airborne detection, tracking and electronic-warfare capability. KIRA was therefore conceived as an **ISR platform with integrated C-UAS capability**, rather than as a dedicated kinetic interceptor.
-
----
-
-## Structures and Airworthiness
-
-Preliminary structural sizing was performed using **STANAG 4671** as the provisional design basis.
-
-The analysis included:
-
-* manoeuvre and gust load envelopes;
-* aerodynamic load estimation;
-* wing-root shear and bending loads;
-* bending–torsion assessment;
-* preliminary composite laminate sizing.
-
-A dual-use compliance strategy was also considered, combining a civil certification baseline with subsequent military validation where required.
-
----
-
-## Design Maturity
-
-**Estimated maturity: TRL 2–3**
-
-KIRA remained at the **conceptual / preliminary design stage**; no full-scale prototype or flight-test campaign was performed.
-
-Identified maturation steps include payload interface definition, HIL testing, EMI/EMC testing, prototype manufacturing and progressive flight-envelope expansion.
-
----
-
-## Published Material
-
-This repository contains the project's public-facing:
-
-[`KIRA — Executive Summary`](KIRA_Executive_Summary.pdf)
-
-It provides an overview of the mission concept, CONOPS, aircraft and system architecture, payload integration, mobile GCS, structural approach, key sizing results and project maturity.
-
-Detailed analyses, calculations and design data developed during the project are **not distributed publicly**.
-
----
-
-## Engineering Areas
-
-`Counter-UAS` · `ISR` · `Fixed-Wing UAS` · `Aircraft Preliminary Design` · `System Architecture` · `Mission Systems Integration` · `Radar / EO-IR / EW Integration` · `Mobile GCS` · `CONOPS` · `Dual-UAV Operations` · `Electrical Power Budgeting` · `Aircraft Performance` · `CG Management` · `Preliminary Structural Sizing` · `STANAG 4671` · `UAS Certification`
-
----
-
-## Notes
-
-KIRA was developed as an academic group project within the MSc in Aeronautical Engineering at **Politecnico di Milano**.
-
-The Executive Summary reflects multidisciplinary team work. My primary contribution covered **team leadership, aircraft-level integration, mission and system architecture, preliminary sizing, multidisciplinary coordination and design decision-making**.
+> **Public-material note:** only selected material suitable for public distribution is included here. Detailed calculations, design data and internal project files are not public and cannot be shared in this repository.

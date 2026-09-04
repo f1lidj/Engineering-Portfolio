@@ -1,151 +1,23 @@
 # Project O.L.I.V.I.A.
 
-**Optimized Lightweight Intelligent Vehicle for Immediate Aid**  
-Autonomous fixed-wing UAV developed by **Fly Mi – Politecnico di Milano** for the **IMechE UAS Challenge 2025**.
+**Optimized Lightweight Intelligent Vehicle for Immediate Aid** was a fully autonomous fixed-wing UAV developed by **Fly Mi – Politecnico di Milano** for the **IMechE UAS Challenge 2025**.
 
-**Role:** Chief Technology Officer  
-**Period:** September 2024 – September 2025  
-**Location:** Milan, Italy
+The aircraft was designed to transport and autonomously release a **2.5 kg payload** over a mission of approximately **15 km**.
 
----
+## My Role
 
-## Project Overview
+**Chief Technology Officer — 50+ member programme**
 
-O.L.I.V.I.A. was a fully autonomous fixed-wing UAV designed for the transport and aerial release of a **2.5 kg jettisonable payload** over a mission of approximately **15 km**.
+I was responsible for the end-to-end technical coordination of the project across five technical departments. My work included:
 
-The project covered the complete aircraft-development cycle, from requirements definition and preliminary planning through detailed design, manufacturing, systems integration, verification, flight testing and final competition operations.
+- translating mission requirements into aircraft and system architecture;
+- coordinating design, manufacturing, procurement, integration and verification;
+- aircraft-level integration of aerodynamics, structures, propulsion, electronics, controls and operations;
+- planning progressive SITL/HITL, demonstrator and full-aircraft testing;
+- supervising 150+ hours of flight-test activity across three aircraft;
+- flight readiness, safety processes, anomaly investigation and return-to-flight decisions;
+- technical coordination with sponsors and external partners.
 
-As Chief Technology Officer, I was responsible for the technical coordination of the programme, working across **five technical departments and more than 50 team members**.
+The team achieved **3rd place overall among 42 teams**, won the **Safety Award**, and was the best-finishing Italian team.
 
----
-
-## Project Results
-
-- **3rd place overall** among 42 international university teams at the IMechE UAS Challenge 2025.
-- **Safety Award winner**.
-- **Best finishing Italian team**.
-- Completed the programme and competition deployment within the required schedule despite recovering more than one month of project delay.
-
----
-
-## My Role and Responsibilities
-
-### Technical Leadership and Systems Engineering
-
-- Led the end-to-end technical development of the UAV, from initial planning through competition deployment.
-- Translated **mission and operational requirements into aircraft and system architecture**.
-- Coordinated the development of two flight-ready aircraft through design, manufacturing, integration, verification and flight operations.
-- Integrated outputs from aerodynamics, structures, propulsion, electronics, control systems and mission operations into a coherent aircraft-level design.
-- Supported technical decision-making, configuration trade-offs and readiness assessments throughout the programme.
-
-### Project and Test-Campaign Planning
-
-- Planned the project using **Gantt-based scheduling**, milestone tracking and dependency management.
-- Coordinated design, manufacturing, procurement, integration and testing activities across multiple technical work packages.
-- Combined more than **400 hours of SITL/HITL, flight-simulator activity and demonstrator testing** with progressive full-aircraft validation.
-- Adapted the development plan after programme delays and recovered more than one month while maintaining the competition schedule.
-
-### Flight Testing and Verification
-
-- Planned and supervised more than **150 hours of flight-test activity across three aircraft**.
-- Defined progressive test objectives, readiness gates and test sequences.
-- Used **iron-bird testing, simulation and autonomous demonstrator UAVs** to identify and reduce risks before implementation on the competition aircraft.
-- Supported pre-flight and post-flight inspections, anomaly investigation, hardware troubleshooting and corrective actions.
-- Used repeat testing to confirm modifications and determine return-to-flight readiness.
-
-### Autonomy and UAV Systems
-
-The aircraft development included integration and validation of:
-
-- ArduPilot autopilot architecture.
-- Mission Planner Ground Control Station.
-- GNSS and navigation systems.
-- Radio-control and telemetry links.
-- Antennas and long-range communication equipment.
-- LiDAR and air-data sensors.
-- Flight-control electronics and servos.
-- Autonomous mission logic.
-- Payload-release system.
-- Batteries, ESCs and electric propulsion.
-- Ground-support and field-operation equipment.
-
-Simulation and de-risking activities included **SITL/HITL environments and flight simulators**, allowing mission procedures and autonomous functions to be evaluated before full-aircraft flight testing.
-
----
-
-## Safety, Airworthiness and Operational Readiness
-
-A significant part of the programme focused on developing repeatable and safety-oriented engineering and flight-operation procedures.
-
-I contributed to the preparation and maintenance of:
-
-- **THA — Test Hazard Analysis**
-- **DDS — Design & Development Specification**
-- **FRR — Flight Readiness Review**
-- **POH — Pilot Operating Handbook**
-- Pre-flight and post-flight checklists
-- Operational procedures
-- Flight-readiness criteria
-- Test and anomaly documentation
-
-These processes supported progressive aircraft verification and helped establish a structured safety culture during both flight testing and competition operations.
-
----
-
-## Industrial and Programme Coordination
-
-The programme involved collaboration with more than **10 industrial sponsors and technical partners**.
-
-My responsibilities included:
-
-- Technical coordination with external partners.
-- Manufacturing and material-support planning.
-- Supplier and sponsor interfaces.
-- Management of integration dependencies and external lead times.
-- Support for securing more than **€25,000 in financial and non-monetary contributions**, including materials, manufacturing support, engineering services and access to facilities.
-
----
-
-## Selected Technical Documentation
-
-This repository contains selected documentation produced during the programme.
-
-### Project Definition and Design
-- `Concept_Paper.pdf`
-- `Design_Development_Specification.pdf`
-
-### Flight Readiness and Operations
-- `Flight_Readiness_Review.pdf`
-- `Pilot_Operating_Handbook.pdf`
-
-### Additional Material
-- Project photographs
-
-
----
-
-## Engineering Areas Covered
-
-`UAV Systems Integration`  
-`Flight Testing`  
-`Verification & Validation`  
-`Ground Control Stations`  
-`Autonomous Flight`  
-`SITL / HITL`  
-`Telemetry & Communications`  
-`GNSS`  
-`Flight-Control Electronics`  
-`Electric Propulsion`  
-`Hardware Troubleshooting`  
-`Safety Engineering`  
-`Flight Readiness`  
-`Technical Documentation`  
-`Project Management`
-
----
-
-## Notes
-
-O.L.I.V.I.A. was developed within the Fly Mi student aeronautical association at Politecnico di Milano.
-
-The documentation included in this repository is provided as a technical portfolio of my engineering work and project experience. Only material suitable for public distribution is included.
+> **Public-material note:** O.L.I.V.I.A. includes substantial non-public engineering work. Only selected material suitable for public distribution is included; additional design data, analyses, software and internal documentation cannot be shared here.
