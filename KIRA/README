@@ -2,27 +2,27 @@
 
 **Preliminary design and system architecture of a long-endurance fixed-wing ISR / Counter-UAS platform**
 
-**Institution:** Politecnico di Milano  
-**Role:** Team Leader, 5-member group  
-**Academic Year:** 2024–2025  
+**Institution:** Politecnico di Milano
+**Role:** Team Leader, 5-member group
+**Academic Year:** 2024–2025
 **Project Type:** Aircraft Design / Preliminary UAS Design
 
 ---
 
 ## Project Overview
 
-KIRA is a fixed-wing Unmanned Aerial System developed as a preliminary-design study for persistent **Intelligence, Surveillance and Reconnaissance (ISR)** missions with **Counter-UAS capability**.
+KIRA is a fixed-wing Unmanned Aerial System developed as a preliminary-design study for persistent **Intelligence, Surveillance and Reconnaissance (ISR)** missions with integrated **Counter-UAS capability**.
 
-The platform was designed around:
+The project focused on the design of a complete deployable UAS architecture, combining:
 
-- long-endurance persistent surveillance;
-- detection, classification and tracking of aerial threats;
-- modular mission payload integration;
-- mobile ground-control operations;
-- rapid deployment from semi-prepared sites;
-- single- and dual-UAV operating concepts.
+* long-endurance persistent surveillance;
+* detection, classification and tracking of aerial threats;
+* modular radar, EO/IR and EW payload integration;
+* mobile Ground Control Station operations;
+* deployment from semi-prepared sites;
+* single- and dual-UAV operating concepts.
 
-The design targeted a system capable of combining aircraft-level performance with a deployable mission architecture rather than treating the air vehicle as an isolated platform.
+The baseline configuration was designed for approximately **25 hours of endurance with a 125 kg mission payload**.
 
 ---
 
@@ -30,165 +30,54 @@ The design targeted a system capable of combining aircraft-level performance wit
 
 I acted as **Team Leader of a five-member engineering team**, coordinating the one-year conceptual and preliminary design activity.
 
-My work included:
+My main responsibilities included:
 
-- project and technical coordination;
-- definition of the operational scenario and CONOPS;
-- aircraft configuration trade-offs;
-- mission-driven preliminary sizing;
-- system architecture definition;
-- payload and mission-system integration;
-- performance and endurance assessment;
-- aircraft-level mass, power and CG integration;
-- preliminary structural sizing;
-- ground-control-system concept definition;
-- integration of multidisciplinary design outputs into a coherent UAS concept.
-
----
-
-## Mission and CONOPS
-
-KIRA was designed for persistent ISR and C-UAS operations in environments where fixed ground-based systems may be limited by terrain, infrastructure or mobility.
-
-The operating concept considered:
-
-### Single-UAV Operations
-
-A single aircraft performs persistent surveillance around the protected area from a defined loiter orbit.
-
-### Dual-UAV Operations
-
-Two aircraft operate on coordinated opposing orbits to increase persistent coverage and support continuous surveillance of the target area.
-
-The concept also included expeditionary deployment from **semi-prepared or grass runways** with limited infrastructure.
+* project and technical coordination;
+* operational scenario and CONOPS definition;
+* aircraft configuration trade-offs and preliminary sizing;
+* system and mission architecture definition;
+* payload integration;
+* mass, power and CG management;
+* performance and endurance assessment;
+* preliminary structural sizing;
+* mobile GCS concept definition;
+* multidisciplinary aircraft-level integration.
 
 ---
 
-## System Architecture
+## Aircraft and Mission-System Integration
 
-The complete UAS concept was structured around three main elements:
+The preliminary design covered:
 
-### Air Vehicle
+* aerodynamic and endurance-driven wing sizing;
+* propulsion sizing;
+* aircraft mass breakdown;
+* radar, EO/IR and EW integration;
+* avionics and communication architecture;
+* electrical-power budgeting;
+* centre-of-gravity management;
+* flight-control and actuator requirements;
+* operational performance assessment.
 
-High-aspect-ratio fixed-wing configuration optimised primarily for endurance and persistent surveillance.
+A dedicated fuel-management strategy was considered to maintain the **CG within the prescribed stability envelope throughout the mission**.
 
-### Mission Payload
-
-A modular mission architecture including:
-
-- **GMTI / SAR radar**
-- **EO/IR sensors**
-- **Electronic Warfare / EW payloads**
-
-The mission bay was designed to support payload modularity and future configuration changes.
-
-### Ground Control Station
-
-A **mobile GCS** concept was developed to support both single- and dual-UAV operations.
-
-The complete deployment concept used a two-vehicle logistics architecture:
-
-- one vehicle for transport of the UAV platforms;
-- one vehicle containing the mobile GCS, operators, communication systems and mission-support equipment.
-
----
-
-## Key Design Targets
-
-| Parameter | Design Value |
-|---|---:|
-| Maximum Take-Off Mass | **640 kg** |
-| Mission Payload | **125 kg** |
-| Maximum Endurance | **25 h** |
-| Wing Span | **10 m** |
-| Maximum Speed | **115 m/s** |
-| Take-off Distance | **< 400 m** |
-| Landing Distance | **< 400 m** |
-| Payload Electrical Budget | **~3 kW** |
-| Available APU Electrical Power | **11 kW** |
-
-The baseline ISR configuration was sized to achieve approximately **25 hours of endurance with the full 125 kg mission payload**.
-
----
-
-## Mission-System Integration
-
-The design required aircraft-level integration of several high-level mission systems rather than independent sizing of each subsystem.
-
-The system architecture considered:
-
-- radar integration;
-- EO/IR payloads;
-- EW equipment;
-- onboard electrical power requirements;
-- avionics;
-- flight-control actuators;
-- communication architecture;
-- mobile GCS operations;
-- mission payload modularity;
-- dual-UAV coordination.
-
-A dedicated electrical-power budget was developed to ensure that payload and avionics requirements remained compatible with available onboard power.
-
----
-
-## Aircraft-Level Design
-
-The preliminary design process included:
-
-- mission requirement definition;
-- configuration selection;
-- aerodynamic sizing;
-- endurance-driven wing design;
-- propulsion sizing;
-- aircraft mass breakdown;
-- payload integration;
-- centre-of-gravity management;
-- preliminary structural sizing;
-- electrical-power budgeting;
-- operational performance assessment.
-
-The selected configuration used a **high-aspect-ratio wing** to support long loiter endurance while maintaining suitable low-speed handling and field-operability characteristics.
-
----
-
-## Stability and CG Management
-
-A dedicated fuel-management strategy was considered to control centre-of-gravity movement throughout the long-duration mission.
-
-The preliminary design maintained the CG inside the prescribed stability envelope during the full mission profile.
+The C-UAS architecture focused on airborne detection, tracking and electronic-warfare capability. KIRA was therefore conceived as an **ISR platform with integrated C-UAS capability**, rather than as a dedicated kinetic interceptor.
 
 ---
 
 ## Structures and Airworthiness
 
-Preliminary structural sizing was carried out using **STANAG 4671** as the provisional design basis.
+Preliminary structural sizing was performed using **STANAG 4671** as the provisional design basis.
 
-The design process included:
+The analysis included:
 
-- manoeuvre and gust load envelopes;
-- aerodynamic load estimation;
-- composite structural sizing;
-- wing-root shear and bending assessment;
-- bending–torsion evaluation;
-- preliminary laminate sizing.
+* manoeuvre and gust load envelopes;
+* aerodynamic load estimation;
+* wing-root shear and bending loads;
+* bending–torsion assessment;
+* preliminary composite laminate sizing.
 
-A dual-use compliance strategy was considered, combining a civil certification baseline with later military validation as required.
-
----
-
-## Counter-UAS Architecture
-
-The C-UAS mission concept was based primarily on:
-
-- airborne detection and tracking;
-- radar / EO-IR sensor integration;
-- electronic-warfare payload capability;
-- communication with the Ground Control Station;
-- coordinated UAV operations;
-- persistent surveillance around a protected area.
-
-The system was conceived as an **ISR platform with integrated C-UAS mission capability**, rather than as a dedicated kinetic interceptor.
+A dual-use compliance strategy was also considered, combining a civil certification baseline with subsequent military validation where required.
 
 ---
 
@@ -196,70 +85,27 @@ The system was conceived as an **ISR platform with integrated C-UAS mission capa
 
 **Estimated maturity: TRL 2–3**
 
-The project remained at **conceptual / preliminary design level**.
+KIRA remained at the **conceptual / preliminary design stage**; no full-scale prototype or flight-test campaign was performed.
 
-No full-scale hardware prototype or flight-test campaign was performed as part of the project.
-
-Future maturation steps identified in the design roadmap included:
-
-- interface definition and payload mock-ups;
-- avionics and flight-control HIL testing;
-- EMI/EMC ground testing;
-- full-scale prototype manufacturing;
-- progressive flight-envelope expansion.
+Identified maturation steps include payload interface definition, HIL testing, EMI/EMC testing, prototype manufacturing and progressive flight-envelope expansion.
 
 ---
 
 ## Published Material
 
-This repository contains only the project's public-facing **Executive Summary**:
+This repository contains the project's public-facing:
 
 [`KIRA — Executive Summary`](KIRA_Executive_Summary.pdf)
 
-The Executive Summary provides an overview of:
+It provides an overview of the mission concept, CONOPS, aircraft and system architecture, payload integration, mobile GCS, structural approach, key sizing results and project maturity.
 
-- mission concept;
-- system architecture;
-- aircraft design;
-- C-UAS payload integration;
-- mobile GCS concept;
-- CONOPS;
-- key sizing results;
-- structural and compliance strategy;
-- project maturity.
+Detailed analyses, calculations and design data developed during the project are **not distributed publicly**.
 
 ---
 
-## Engineering Areas Covered
+## Engineering Areas
 
-`Counter-UAS`  
-`ISR`  
-`Fixed-Wing UAS`  
-`Aircraft Preliminary Design`  
-`System Architecture`  
-`Mission Systems Integration`  
-`Radar Integration`  
-`EO/IR`  
-`Electronic Warfare`  
-`Mobile GCS`  
-`CONOPS`  
-`Dual-UAV Operations`  
-`Electrical Power Budgeting`  
-`Aircraft Performance`  
-`CG Management`  
-`Preliminary Structural Sizing`  
-`STANAG 4671`  
-`UAS Certification Strategy`
-
----
-
-## Documentation Scope
-
-Only the **Executive Summary** is made publicly available in this repository.
-
-The complete project documentation contains substantially more detailed technical work, analyses, calculations and design data and is therefore **not distributed publicly**.
-
-The material provided here is intended to present the project's overall scope, architecture and main engineering outcomes while preserving the detailed technical work developed during the project.
+`Counter-UAS` · `ISR` · `Fixed-Wing UAS` · `Aircraft Preliminary Design` · `System Architecture` · `Mission Systems Integration` · `Radar / EO-IR / EW Integration` · `Mobile GCS` · `CONOPS` · `Dual-UAV Operations` · `Electrical Power Budgeting` · `Aircraft Performance` · `CG Management` · `Preliminary Structural Sizing` · `STANAG 4671` · `UAS Certification`
 
 ---
 
@@ -267,4 +113,4 @@ The material provided here is intended to present the project's overall scope, a
 
 KIRA was developed as an academic group project within the MSc in Aeronautical Engineering at **Politecnico di Milano**.
 
-The Executive Summary reflects multidisciplinary team work. My contribution and responsibility were primarily in **team leadership, aircraft-level integration, mission and system architecture, preliminary sizing, multidisciplinary coordination and design decision-making**.
+The Executive Summary reflects multidisciplinary team work. My primary contribution covered **team leadership, aircraft-level integration, mission and system architecture, preliminary sizing, multidisciplinary coordination and design decision-making**.
